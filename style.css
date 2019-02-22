@@ -3,7 +3,8 @@ body {
 }
 
 #title {
-    background-color: #915f67;
+    background-image: url("morning.jpg");
+    background-color: #e2e7f8;
     color:whitesmoke;
 }
 
@@ -12,8 +13,59 @@ body {
    padding-right: 5px;
    padding-bottom: 5px;
    padding-left: 5px;
+   background-color: #1e2027;
 }
 
-.feature-box-col-lg-4{
-    font-family: 'Montserrat'
+.about-me {
+    background-color: black;
+    font-family: 'ubuntu'
 }
+.feature-box-col-lg-4{
+    font-family: 'Montserrat';
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size:  16px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+}
+h5{
+    font-family: 'times new roman';
+    font-weight: bold;
+    font: center;
+    font-size-adjust: 60px;
+}
+
+.navbar{
+    padding: 0 0 30px;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-item{
+    padding : 0 10px;
+    font-family: ubuntu;
+}
+
+.warna{
+    color: green;
+}
+
+.card-body {
+
+}
+    

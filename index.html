@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <title>My Personal Resume</title>
-<!-- <link rel="stylesheet" href="css/styles.css"> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,103 +13,86 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
 
+    <link rel="stylesheet" href="#style.css">
 </head>
 
 <body>
-    <section id="title">
-            <div class="container-fluid">
+    <section id="navbar">
+    <div class="container-fluid"> 
 <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href=""> Z.D. </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"> 
-                    <a class="nav-link" href ="#Home">Home</a>
-                </li>
-                <li class="nav-item"> 
-                    <a class="nav-link" href ="#About">About</a>
-                </li>
-                <li class="nav-item"> 
-                    <a class="nav-link" href ="#Portofolio">Portofolio</a>
-                </li>
-                <li class="nav-item"> 
-                    <a class="nav-link" href ="#Contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav> 
-
-<!-- About Me -->
-    <div class="row">
-            <div class="col-lg-6">
-              <h1 class="big-heading">.</h1>
-              <button type="button" class="Contact-us"><i class="#" > </i> Contact</button>
-            </div>
-            <div class="col-lg-6">
-              <img class =" title-image" src="morning.jpg" alt="morning-spirit">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Zakarias D.</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#navbar">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#about-me">About Me</a>
+              <a class="nav-item nav-link" href="#portofolio">Project</a>
+              <a class="nav-item nav-link" href="#testimonial">Testimonial</a>
+              <a class="nav-item nav-link" href="#contact">Contact</a>
             </div>
           </div>
-        </div>
-        </section>
-    
+        </nav>
+      </div>
+    </section>
+
+  
 <!-- About-Me -->
 
 <section id="about-me">
-        <div class="row">
-          <!-- fitur 1  -->
-          <div class="feature-box-col-lg-4" > 
-              <h3>Hello My Name is Zakarias Danujatmiko!</h3>
-              <p>Zakarias is a Profesional Business Development, and Creative Growth Thinker.</p>
-              <br> 
-              <p>Zakarias is known as a expert in Startup technology and his carrer Journey starts as marketing executive in IOT services and expands to Big Data Industry. His carrer is focusing into B2B Business evelopment Consultancy and Engagement.</p>
+            <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Welcome to my Page!</h1>
+              <p color= "white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id omnis, fugiat quibusdam molestias sapiente velit placeat alias commodi quasi ut dolor. Expedita at voluptas ullam labore excepturi, rerum temporibus laborum.</p>
+              <p color= "white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis repellat deleniti facilis, quibusdam hic cumque doloremque corporis, eligendi quasi, quidem architecto amet beatae. Itaque autem, quo saepe porro quibusdam mollitia!</p>
+            </div>
           </div>
-        </div>
 </section>
 
 <!-- Portofolio -->
 
-<section id="Portofolio">
-<h5 class="My-Portofolio">My Portofolio</h5>
-<div class="card-deck">
-        <div class="card">
-          <img src="studentpreneur.jpg" class="card-img-top" alt="studentpreneur">
-          <div class="card-body">
-            <h5 class="card-title">MOOC Project</h5>
-            <p class="card-text">Merupakan platform yang menjembatani antara para professional yang ingin mencari keahlian baru dengan mengakses materi secara online.</p>
+<section id="portofolio">
+<h5 class="My-Portofolio"> <center> My Portofolio </center></h5>
+<div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="studentpreneur.jpg">
+          <img src="studentpreneur.jpg" alt="MOOC" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laudantium eum, expedita earum dolorem consectetur! Ad voluptates voluptate dicta quibusdam maxime dolorem facere architecto perspiciatis sint praesentium. Minus, non et?</p>
           </div>
-          <div class="card-footer">
-            <small class="text-muted">&& Copyright 2019</small>
-          </div>
-        </div>
-        <div class="card">
-          <img src="snei.jpeg" class="card-img-top" alt="snei">
-          <div class="card-body">
-            <h5 class="card-title">SNei</h5>
-            <p class="card-text">Merupakan project hubungan komunikasi antara organisasi dokter bedah saraf dengan masyarakat.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">&& Copyright 2019</small>
-          </div>
-        </div>
-        <div class="card">
-          <img src="telkombigdata.jpg" class="card-img-top" alt="telkombigdata">
-          <div class="card-body">
-            <h5 class="card-title">Telkom Big Data</h5>
-            <p class="card-text">Merupakan project sosial media listening guna mengidentifikasi profiling para pengguna indihome diseluruh Indonesia.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">&& Copyright 2019</small>
-          </div>
-        </div>
+        </a>
       </div>
-
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="maxresdefault_snei.jpg">
+          <img src="maxresdefault_snei.jpg" alt="Public Relation" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, quis ducimus esse voluptatibus reiciendis doloribus harum minima veniam mollitia error voluptatem? Inventore cumque itaque repellendus harum id distinctio architecto fugiat.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="telkombigdata.jpg">
+          <img src="telkombigdata.jpg" alt="Big Data Analitics" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt voluptates iusto libero ab praesentium ad, soluta blanditiis corporis fuga molestiae dolorem facere sed. Dignissimos consequatur atque corporis ipsa perferendis.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  
 <!-- What They Say About Me -->
 
-<section id="What They Say About Me">
+<section id="testimonial">
 </section>
 <div class="bd-example">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -154,7 +136,7 @@
       </div>
 
 <!-- Footer dan Contact-->
-      <footer id="Contact">
+      <footer id="contact">
             <i class="social-icon fab fa-facebook-square"></i>
             <i class="social-icon fab fa-twitter"></i>
             <i class="social-icon fab fa-instagram"></i>
