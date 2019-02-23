@@ -16,10 +16,11 @@ body {
    background-color: #1e2027;
 }
 
-.about-me {
+#about-me {
     background-color: black;
     font-family: 'ubuntu'
 }
+
 .feature-box-col-lg-4{
     font-family: 'Montserrat';
     padding-top: 5px;
@@ -28,28 +29,31 @@ body {
     padding-left: 5px;
 }
 
+.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+}
+
 h1{
     font-family: 'Montserrat';
-    font-size:  16px;
-    font-weight: bold;
-    line-height: 1.5;
+    font-size:16px;
+    font-weight:bold;
+    line-height:1.5;
 }
 h3{
     font-family: 'Montserrat';
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 2;
-}
-h5{
-    font-family: 'times new roman';
-    font-weight: bold;
-    font: center;
-    font-size-adjust: 60px;
+    font-size:16px;
+    font-weight:bold;
+    padding-bottom: 20px;
 }
 
-.navbar{
-    padding: 0 0 30px;
+/* navbar section  */
+#navbar{
+    padding: 30px;
 }
+
 .navbar-brand{
     font-family: "Ubuntu";
     font-weight: bold;
@@ -57,7 +61,7 @@ h5{
 }
 
 .nav-item{
-    padding : 0 10px;
+    padding : 10px;
     font-family: ubuntu;
 }
 
@@ -65,7 +69,57 @@ h5{
     color: green;
 }
 
-.card-body {
+/* Portofolio  */
+#portofolio {
+    
+    text-align: center;
+    background-color: #ef8172;
+    color:#ffff;
+    
+}
+
+.carousel-item img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
 
 }
+.carousel-item {
+    padding : 8% 20%;
     
+}
+
+/* Testimonials */
+
+.card-title {
+    background-color: antiquewhite;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.title-project {
+    text-align: center;
+    font-family: "Ubuntu";
+}
+
+#project-card {
+    text-align: center;
+    font-family: "ubuntu";
+    padding-bottom: 40px;
+}
+
+/* footer  section   */
+
+.contact{
+    padding : 100px;
+    text-align: center;
+    font-size: 25px;
+}
+.social-media {
+    margin : 50px 10px;
+}
+
+#footer {
+    text-align: center;
+    font-family: 'Montserrat';
+}
