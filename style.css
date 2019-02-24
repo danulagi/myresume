@@ -1,3 +1,5 @@
+/* section hero*/
+
 .jumbotron {
     background-image: url('images/pexels-photo-1040499.jpeg'), linear-gradient(to left bottom, rgba(0,0,0,.7), rgba(0,0,0,.7));
     background-position: center;
@@ -11,4 +13,34 @@ h1 {
 
 .par-jumbo {
     color: aliceblue;
+}
+
+/* section about*/
+
+#about {
+    background-color: darkgrey;
+    margin-top: -33px;
+    padding: 20px;
+}
+
+/* project*/
+
+.warna {
+    color: black;
+    margin-bottom: -60px;
+}
+
+#project {
+    background-color: #;
+}
+
+/* testimonial*/
+
+.ukuran {
+    height: 400px;
+    padding: 10px;
+}
+
+#footer p{
+    font-size: 125%;
 }
