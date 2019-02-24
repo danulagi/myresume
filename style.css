@@ -1,129 +1,14 @@
-body {
-    font-family: 'Montserrat';
+.jumbotron {
+    background-image: url('images/pexels-photo-1040499.jpeg'), linear-gradient(to left bottom, rgba(0,0,0,.7), rgba(0,0,0,.7));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#title {
-    background-image: url("morning.jpg");
-    background-color: #e2e7f8;
-    color:whitesmoke;
+h1 {
+    color: white;
 }
 
-.container-fluid {
-   padding-top: 5px;
-   padding-right: 5px;
-   padding-bottom: 5px;
-   padding-left: 5px;
-   background-color: #1e2027;
-}
-
-.avatar{
-    /* border-radius: 100%; */
-    width: 150px;
-    height: 150px;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-}
-
-
-.jumbotron{
-    background-color: black;
-} 
-
-
-.center{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-}
-
-h1{
-    font-family: 'Montserrat';
-    font-size:16px;
-    font-weight:bold;
-    line-height:1.5;
-}
-h3{
-    font-family: 'Montserrat';
-    font-size:16px;
-    font-weight:bold;
-    padding-bottom: 20px;
-}
-
-/* navbar section  */
-#navbar1{
-    padding: 30px;
-}
-
-.navbar-brand{
-    font-family: "Ubuntu";
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.nav-item{
-    padding : 10px;
-    font-family: ubuntu;
-}
-
-.warna{
-    color: green;
-}
-
-/* Portofolio  */
-#portofolio {
-    
-    text-align: center;
-    background-color: #ef8172;
-    color:#ffff;
-    
-}
-
-.carousel-item img {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-
-}
-.carousel-item {
-    padding : 8% 20%;
-    
-}
-
-/* Testimonials */
-
-.card-title {
-    background-color: antiquewhite;
-    padding-bottom: 2px;
-    text-align: center;
-}
-
-.title-project {
-    text-align: center;
-    font-family: "Ubuntu";
-}
-
-#project-card {
-    text-align: center;
-    font-family: "ubuntu";
-    padding-bottom: 40px;
-}
-
-/* footer  section   */
-
-/* .contact{
-    padding-top : 0px;
-    text-align: center;
-    font-size: 00px;
- } */
-
-
-.social-icon {
-    margin-top : 50px;
-    text-align: center;
-}
-
-#footer {
-     font-family: 'Montserrat';
+.par-jumbo {
+    color: aliceblue;
 }
