@@ -12,15 +12,20 @@ h1 {
 }
 
 .par-jumbo {
-    color: aliceblue;
+    color: white;
+    font-weight: bold;
 }
+
 
 /* section about*/
 
 #about {
-    background-color: darkgrey;
+    background-image: url('images/team-at-work.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: -33px;
-    padding: 20px;
+    padding: 200px;
 }
 
 /* project*/
